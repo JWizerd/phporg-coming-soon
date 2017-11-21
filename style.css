@@ -1,0 +1,51 @@
+html {
+  min-height: 100%;
+}
+
+html, body, div {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: 
+    url('assets/bg.jpg') top center no-repeat;
+  background-size: cover;
+  font-family: 'Oxygen Mono', monospace;
+  color: green;
+  background-size: cover;
+  display: table;
+  width: 100%;
+}
+
+div {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  background: rgba(0,0,0,.3)
+}
+
+span, 
+h2 {
+  display: inline-block;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+#cursor {
+  color: green;
+  position: relative;
+  left: 0;
+  width: 20px;
+  font-size: 18px;
+}
